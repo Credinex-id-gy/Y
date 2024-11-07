@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { EventEmitter } from 'node:events'
 
 import logger from '@wdio/logger'
@@ -464,7 +465,7 @@ export default class Runner extends EventEmitter {
                 delete multiremoteBrowser.getInstance(browserName).sessionId
             })
         } else if (browser) {
-            browser.sessionId = undefined as any as string
+            browser.sessionId = undefined as unknown as string
         }
 
         const afterSessionArgs: AfterSessionArgs = [this._config!, capabilities, this._specs as string[]]

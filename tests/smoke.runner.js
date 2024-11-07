@@ -1007,7 +1007,6 @@ const jasmineAfterHookArgsValidation = async () => {
     console.log('\nAll smoke tests passed!\n')
     process.exit(0)
 })().catch((e) => {
-    // eslint-disable-next-line no-console
     console.log(e.stack)
 
     process.exit(1)

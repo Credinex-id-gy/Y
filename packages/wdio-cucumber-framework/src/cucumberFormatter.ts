@@ -236,7 +236,7 @@ export default class CucumberFormatter extends Formatter {
 
                 error = err
             }
-        } else if (result.status === Status.FAILED && !(result as any as TestCaseFinished).willBeRetried) {
+        } else if (result.status === Status.FAILED && !(result as unknown as TestCaseFinished).willBeRetried) {
             error = new Error(result.message?.split('\n')[0])
             error.stack = result.message as string
             this.failedCount++
@@ -245,7 +245,7 @@ export default class CucumberFormatter extends Formatter {
             this.failedCount++
             error = new Error(result.message?.split('\n')[0])
             error.stack = result.message as string
-        } else if ((result as any as TestCaseFinished).willBeRetried) {
+        } else if ((result as unknown as TestCaseFinished).willBeRetried) {
             state = 'retry'
         }
 

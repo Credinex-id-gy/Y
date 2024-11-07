@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import type { EventEmitter } from 'node:events'
 import type { remote, SessionFlags, AttachOptions as WebDriverAttachOptions, BidiHandler, EventMap } from 'webdriver'
 import type { Capabilities, Options, ThenArg } from '@wdio/types'
@@ -277,7 +278,7 @@ export interface BrowserBase extends InstanceBase, CustomInstanceCommands<Webdri
     capabilities: WebdriverIO.Capabilities
 }
 
-type WebdriverIOEventMap = EventMap & {
+export type WebdriverIOEventMap = EventMap & {
     'dialog': WebdriverIO.Dialog
 }
 
