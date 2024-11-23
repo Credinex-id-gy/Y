@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sentra Bisnis Fastpay</title>
+    <meta name="theme-color" content="#fcb651">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+    <link rel="apple-touch-icon" href="https://loket2-fastpay.bmsecure.id/img/icon.jpg" rel="shortcut icon" type="image/x-icon">
+    <link rel="icon" href="https://loket2-fastpay.bmsecure.id/img/icon.jpg" rel="shortcut icon" type="image/x-icon">
+    <link type="text/css" href="https://loket2-fastpay.bmsecure.id/css/bs4alpha.css" rel="stylesheet">
+    <link type="text/css" href="https://loket2-fastpay.bmsecure.id/css/loginv3.1.css?v=0.4" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- <link rel="manifest" href="manifest.webmanifest"> -->
+    <script src="https://loket2-fastpay.bmsecure.id/bower_components/jquery/jquery.min.js"></script>
+    <script src="https://loket2-fastpay.bmsecure.id/bower_components/bs4/bootstrap.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MXK3SV7');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script>
+        (function(d,t) {
+            var BASE_URL="https://help.fastpay.co.id";
+            var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=BASE_URL+"/packs/js/sdk.js";
+            g.defer = true;
+            g.async = true;
+            s.parentNode.insertBefore(g,s);
+            g.onload=function(){
+                window.chatwootSDK.run({
+                websiteToken: 'LijaMvMtv3qhbixzE9ZobKRV',
+                baseUrl: BASE_URL
+                })
+            }
+        })(document,"script");
+    </script>
+    
+    <style>
+        .container-home-screen{
+            right: 0;
+            background: #fff;
+            padding: 2px 3px;
+            font-size: 12px;
+            border-bottom-left-radius: 4px;
+        }
+        .container-home-screen > a{
+            color: rgb(67, 81, 237);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="position-absolute container-home-screen" style="display:none">
+        <a href="javascript:void(0);" class="home-screen">Add to home screen</a>
+    </div>
+    <section class="login-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 hidden-sm-down hidden-xs-down" style="padding: 0;">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                                                                    <div class="carousel-item active">
+                                                                                            <img src="https://sbf-public-assets.bmsecure.id/fastpay-attachment/promo/2024/10/03/1727920393518-1770_fpweb.jpg">
+                                                                                    </div>
+                                                                        <div class="carousel-item ">
+                                                                                            <img src="https://sbf-public-assets.bmsecure.id/fastpay-attachment/promo/2024/11/15/1731635139486-1828_fpweb.jpg">
+                                                                                    </div>
+                                                                        <div class="carousel-item ">
+                                                                                            <img src="https://sbf-public-assets.bmsecure.id/fastpay-attachment/promo/2024/10/31/1730357169863-1799_fpweb.jpg">
+                                                                                    </div>
+                                                                        <div class="carousel-item ">
+                                                                                            <img src="https://sbf-public-assets.bmsecure.id/fastpay-attachment/promo/2024/11/01/1730425990298-1806_fpweb.jpg">
+                                                                                    </div>
+                                                                        <div class="carousel-item ">
+                                                                                            <img src="https://sbf-public-assets.bmsecure.id/fastpay-attachment/promo/2024/11/04/1730684127795-1820_fpweb.jpg">
+                                                                                    </div>
+                                                                        <div class="carousel-item ">
+                                                                                            <img src="https://sbf-public-assets.bmsecure.id/fastpay-attachment/promo/2024/11/01/1730450220820-1815_fpweb.jpg">
+                                                                                    </div>
+                                                                        <div class="carousel-item ">
+                                                                                            <img src="https://sbf-public-assets.bmsecure.id/fastpay-attachment/promo/2024/11/01/1730429536285-1808_fpweb.jpg">
+                                                                                    </div>
+                                                                        <div class="carousel-item ">
+                                                                                            <img src="https://sbf-public-assets.bmsecure.id/fastpay-attachment/promo/2024/11/01/1730453105412-1817_fpweb.jpg">
+                                                                                    </div>
+                                                                        <div class="carousel-item ">
+                                                                                            <img src="https://sbf-public-assets.bmsecure.id/fastpay-attachment/promo/2024/11/01/1730443316939-1811_fpweb.jpg">
+                                                                                    </div>
+                                                                        <div class="carousel-item ">
+                                                                                            <img src="https://sbf-public-assets.bmsecure.id/fastpay-attachment/promo/2024/10/31/1730362967905-1801_fpweb.jpg">
+                                                                                    </div>
+                                                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 login-sec">
+                    <h2 class="text-center">
+                        <img src="https://loket2-fastpay.bmsecure.id/img/logo-fastpay/fastpay.png" alt="">
+                    </h2>
+                    <!--onsubmit="return status_login()"-->
+                    <form autocomplete="off" id="login-form" class="login-form" method="POST">
+                        
+                        <input readonly type="hidden" name="txt_status" id="txt_status" value="">
+
+                        <div id="login-field" class="show_login show">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1" class="text-uppercase">Nomor Handphone Anda</label>
+                                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                    <div class="input-group-addon"> <i class="fa fa-user"></i> </div>
+                                    <input name="txt_id" id="txt_id" autofocus autocomplete="off" maxlength="14" type="text" class="form-control text-login" pattern="[0-9]{0,14}" inputmode="numeric" value="" placeholder="Nomor Handphone Anda">
+                                    <input type="hidden" name="tipe" id="txt_tipe" value="0">
+                                </div>
+                            </div>
+                            <div class="form-group position-relative">
+                                <label for="exampleInputPassword1" class="text-uppercase">PIN ANDA</label>
+                                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                    <div class="input-group-addon"> <i class="fa fa-lock"></i></div>
+                                    <input pattern="[0-9]*" inputmode="numeric" name="txt_pin" id="txt_pin" type="password" maxlength='6' class="form-control white text-login" value="" placeholder="Masukkan Pin Anda" autocomplete="off">
+                                </div>
+                                <span class="position-absolute" style="top: 0;right: 0;"><small><a href="javascript:void(0);" data-toggle="modal" data-target=".lupa-password">Lupa PIN</a></small> </span>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-danger btn-block" name="btn_login" id="btn-login" value="Masuk">
+                            </div>
+                        </div>
+                    </form>
+
+
+                    <div id="verif" class="verif mt-4 hide">
+                        <div class="mb-2">
+                            <h4 class="heading mb-0">Pilih Metode Pengiriman KEY</h4>
+                        </div>
+                        <p class="subheading">Silakan pilih metode pengiriman KEY untuk melanjutkan proses login</p>
+
+                        <div class="verif-option">
+                            <div class="item wa " data-type="wa" id="status_otp_wa"  >
+                                <img src="https://loket2-fastpay.bmsecure.id//assets/images/ic_verifikasi_wa.svg" class="img img-responsive item-logo" />
+                                <div>
+                                    <p class="item-title">Whatsapp</p>
+                                    <p class="no-telp">ke </p>
+                                </div>
+                            </div>
+                            <div class="item sms " data-type="sms" id="status_otp_sms"  >
+                                <img src="https://loket2-fastpay.bmsecure.id//assets/images/ic_verifikasi_sms.svg" class="img img-responsive item-logo" />
+                                <div>
+                                    <p class="item-title">SMS</p>
+                                    <p class="no-telp">ke </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="back text-center" data-page="login">
+                            <i class="fa fa-chevron-left icon"></i>
+                            <span>Kembali</span>
+                        </div>
+                    </div>
+
+                    <div id="confirm" class="verif mt-4 hide">
+                        <div class="mb-2">
+                            <h4 class="heading mb-0">KEY Telah Dikirim</h4>
+                        </div>
+
+                        <div class="confirm-wa hide">
+                            <p class="subheading">Silakan masukkan 4 digit key yang telah kami kirimkan melalui WhatsApp ke <span class="no-telp"></span></p>
+
+                            <div class="form-group mb-2">
+                                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                    <div class="input-group-addon"> <i class="fa fa-key"></i> </div>
+                                    <input maxlength='4' autocomplete="off" type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" class="form-control text-login" placeholder="Masukkan Key" id="txt_key_wa" name="txt_key">
+                                </div>
+                            </div>
+
+                            <p class="resend">Mohon tunggu <span class="timer"></span> detik untuk kirim ulang</p>
+                            <p class="resend-label">Tidak menerima key? <span class="resend-link">Kirim ulang</span></p>
+
+                            <div class="form-group mt-3">
+                                <button class="btn btn-danger btn-block btn-verif" id="btn-verif" data-type="wa">Masuk</button>
+                                <button class="btn back btn-block btn-back" data-page="verif">Pilih Metode Pengiriman Key Lainnya</button>
+                            </div>
+                        </div>
+
+                        <div class="confirm-sms hide">
+                            <p class="subheading">Silakan masukkan 6 digit key yang telah kami kirimkan melalui SMS ke <span class="no-telp"></span></p>
+
+                            <div class="form-group mb-2">
+                                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                    <div class="input-group-addon"> <i class="fa fa-key"></i> </div>
+                                    <input maxlength='6' autocomplete="off" type="text" class="form-control text-login" placeholder="Masukkan Key" id="txt_key_sms" name="txt_key">
+                                </div>
+                            </div>
+
+                            <p class="sms-label">Silahkan masukkan sms key yang terakhir kami kirim</p>
+                            <p class="resend">Mohon tunggu <span class="timer"></span> detik untuk kirim ulang</p>
+                            <p class="resend-label">Tidak menerima key? <span class="resend-link">Kirim ulang</span></p>
+
+                            <div class="form-group mt-3">
+                                <button class="btn btn-danger btn-block btn-verif" id="btn-verif" data-type="sms">Masuk</button>
+                                <button class="btn back btn-block btn-back" data-page="verif">Pilih Metode Pengiriman Key Lainnya</button>
+                            </div>
+                        </div>
+
+                        <div class="help">
+                            <span>Perlu bantuan?</span> <a href="https://www.fastpay.co.id/help" target="_blank">Hubungi Customer Service</a>
+                        </div>
+                    </div>
+
+                    <div class="copy-text">
+                        &copy; Copyright 2011 - 2024 <br>Sentra Bisnis Fastpay All Right Reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade lupa-password" tabindex="-1" role="dialog" aria-labelledby="lupapassword" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="position-relative content-lupa-pwd">
+                        <i class="fa fa-comment-dots position-absolute lock-bg"></i>
+                        <h5 class="modal-title mb10"></i> Reset Pin Fastpay</h5>
+                        <p>Jika lupa PIN Anda, Silahkan menghubungi customer service kami :</p>
+                        <button type="button" class="close position-absolute close-sms" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+                        <div class="row">
+                            <div class="col text-center"> <a class="btn btn-primary" href="https://www.fastpay.co.id/help" target="_blank"> <i class="fa fa-user-lock"></i> Customer Service</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade lupa-password2" id="lupa-password2" tabindex="-1" role="dialog" aria-labelledby="lupapassword" aria-hidden="true">
+        <div class="modal-dialog modal-lupa-pin">
+            <div class="modal-content">
+                                <div class="modal-body">
+                    <button type="button" class="close close-direct" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+
+                    <h5 class="title">Lupa PIN</h5>
+
+                                            <p id="caption-lupa-pin">Untuk buat PIN baru, masukkan nomor Handphone yang terdaftar di Akun Fastpay ini</p>
+
+                        <form id="reset-pin" action="https://loket2-fastpay.bmsecure.id/main/reset_pin" method="POST">
+                            <div class="form-group">
+                                <label for="txt_lupa_telp" class="form-label">Nomor Handphone Anda</label>
+                                <input name="txt_lupa_telp" id="txt_lupa_telp" autofocus autocomplete="off" maxlength="14" required type="text" class="form-control" pattern="[0-9]{0,14}" inputmode="numeric" placeholder="Nomor Handphone Anda">
+                            </div>
+
+                            <input type="submit" value="Kirim SMS" id="btn-reset-pin" class="btn btn-danger">
+                        </form>
+
+                        <div id="alert-lupa-pin" class="alert none alert-warning alert-dismissible" role="alert">
+                            <div class="alert-body">
+                                <i class="fa fa-info-circle"></i>
+                                <span id="alert-lupa-pin-body"></span>
+                            </div>
+                        </div>
+
+                        <div id="alert-cs" class="mt-3 position-relative content-lupa-pwd text-center">
+                            <p>Silahkan menghubungi customer service kami jika Anda belum mendapatkan SMS link ubah PIN</p>
+                            <div class="text-center">
+                                <a class="btn btn-primary" href="https://www.fastpay.co.id/help" target="_blank"> <i class="fa fa-user-lock"></i>&nbsp;&nbsp;Customer Service</a>
+                            </div>
+                        </div>
+                    
+                </div>
+                            </div>
+        </div>
+    </div>
+
+    <div class="modal fade is_need_data_completion" tabindex="-1" role="dialog" aria-labelledby="data_completion" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="position-relative content_is_need_data_completion">
+                        <i class="fa fa-user-lock position-absolute lock-bg"></i>
+                        <h5 class="modal-title mb10"></i> Loket Anda belum aktif</h5>
+                        <p>Silahkan aktifasi loket Anda terlebih dulu</p>
+                        <div class="row">
+                            <div class="col text-center"> <a id="complete_data" class="btn btn-primary" target="_blank"> <i class="fa fa-sign-out-alt"></i> Aktifasi Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade is_block" tabindex="-1" role="dialog" aria-labelledby="is_block" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="position-relative content_is_block"> <i class="fa fa-lock position-absolute lock-bg"></i>
+                        <h5 class="modal-title mb10"></i> Akses Login Ditolak</h5>
+                        <p>Maaf, ID Anda tidak memiliki akses untuk aplikasi ini</p>
+                        <div class="row">
+                            <div class="col text-center"> <button type="button" class="btn btn-primary" data-dismiss="modal">Tutup</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade shownotif" tabindex="-1" role="dialog" aria-labelledby="is_block" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="position-relative content_is_block"> <i class="fa fa-lock position-absolute lock-bg"></i>
+                        <h5 class="modal-title mb10"></i> Maaf</h5>
+                        <p id="contentnotif"></p>
+                        <div class="row">
+                            <div class="col text-center"><button type="button" class="btn btn-primary" data-dismiss="modal">Tutup</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXK3SV7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8e3d42f15dd83f77',t:'MTczMTgyMDcyMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<script type="text/javascript">
+    const countdown = 90;
+
+    let via = ''
+    let viaWa = '';
+    let viaSms = '';
+
+    let interfal;
+    let counter = null;
+
+    const btnLogin = $("#btn-login");
+    const txtId = $("#txt_id");
+    const txtPin = $("#txt_pin");
+    const txtTipe = $("#txt_tipe");
+    const txtKeySms = $("#txt_key_sms");
+    const txtKeyWa = $("#txt_key_wa");
+    const loginField = $("#login-field");
+    const verif = $("#verif");
+    const viaLabel = $("#via");
+    const confirm = $("#confirm");
+
+    $(document).ready(function() {
+        const page = 'login';
+
+        if (via == "wa" || via == "sms") {
+            showConfirm();
+        }
+    });
+
+    function showConfirmSms() {
+        via = 'sms';
+        $('.confirm-wa').hide();
+        $('.confirm-sms').show();
+    }
+
+    function showConfirmWa() {
+        via = 'wa';
+        $('.confirm-sms').hide();
+        $('.confirm-wa').show();
+    }
+
+    $('#myCarousel').carousel({
+        interval: 3000,
+        cycle: true
+    });
+
+    $('#txt_id').on('keypress', function(event) {
+        return numberOnly(event);
+    });
+
+    function numberOnly(event) {
+        var key = event.charCode || event.keyCode || event.which;
+        var namekey = event.key;
+        if ((key >= 48 && key <= 57) || (key == 8 || key == 46) || (key == 37 || key == 39 || key == 9)) {
+            return true;
+        }
+        return false;
+    }
+
+    $('#txt_id').on('paste', function(event) {
+        if (event.originalEvent.clipboardData.getData('Text').match(/[^\d]/)) {
+            event.preventDefault()
+        }
+    });
+
+    $('#login-form').submit(function(e) {
+        e.preventDefault();
+
+        if (txtId.val() != "" && txtPin.val() != "") {
+            // if (txtId.val() == viaWa || txtId.val() == viaSms) {
+            //     showVerif();
+            //     return;
+            // }
+ 
+            const payload = {
+                outlet: txtId.val(),
+                pin: txtPin.val(),
+                tipe: txtTipe.val(),
+            }
+
+            btnLogin.prop('disabled', true).val('Mohon ditunggu...');
+            txtId.attr('readonly', true);
+            txtPin.attr('readonly', true);
+
+            $.ajax({
+                type: 'POST',
+                url: 'https://loket2-fastpay.bmsecure.id/main/check_login',
+                data: payload,
+                success: function(res) {
+                    try {
+                        const response = JSON.parse(res);
+
+                        if (!response) {
+                            throw "Tidak dapat terhubung ke server";
+                        }
+
+                        if (response.rc == "00" || response.rc == "01") {
+                            window.$chatwoot.reset();
+                            location.reload();
+                        } else if (response.rc == '02') {
+                            $('.is_need_data_completion').modal('show');
+                            $('#complete_data').attr('href', "https://www.fastpay.co.id/aktivasi?hp=" + txtId.val());
+                            return false;
+                        } else if (response.rc == '03') {
+                            $('.is_block').modal('show');
+                            return false;
+                        } else if (response.rc == '07' || response.rc == '04' || response.rc == '05' || response.rc == 'x2') {
+                            shownotif(response.keterangan);
+                            return false;
+                        } else {
+                            shownotif(response.keterangan);
+                            return false;
+                        }
+                    } catch (error) {
+                        shownotif("Tidak dapat terhubung ke server");
+                    }
+                },
+                complete: function() {
+                    txtId.attr('readonly', false);
+                    txtPin.attr('readonly', false);
+                    btnLogin.prop('disabled', false).val("Masuk");
+                }
+            });
+        } else {
+            shownotif('Semua field harus diisi');
+
+            txtId.attr('readonly', false);
+            txtPin.attr('readonly', false);
+            btnLogin.prop('disabled', false).val('Masuk');
+        }
+
+    })
+
+    $('.item').on('click', function(e) {
+        const disabled = $(this).hasClass('disabled')
+
+        const type = $(this).data('type');
+        const outlet = '';
+        const pin = '';
+
+        if (!disabled) {
+            $('.item').addClass('disabled');
+            via = type;
+
+            if (viaWa == '' && type == 'wa') {
+                requestKey(outlet, pin, type);
+            } else if (viaSms == '' && type == 'sms') {
+                requestKey(outlet, pin, type);
+            } else {
+                if (type == "sms") {
+                    setPage('confirm', false, type);
+                    if (counter == null) {
+                        startCountdown(countdown);
+                    } else if (counter == 0) {
+                        $('.resend').show();
+                        // $('.resend').hide();
+                        $('.resend-label').hide();
+                    }
+                } else if (type == "wa") {
+                    setPage('confirm', false, type);
+                    if (counter == null) {
+                        startCountdown(countdown);
+                    } else if (counter == 0) {
+                        $('.resend').show();
+                        // $('.resend').hide();
+                        $('.resend-label').hide();
+                    }
+                }
+            }
+        }
+    });
+
+    $(".back").on('click', function(e) {
+        e.preventDefault();
+        const page = $(this).data('page');
+        setPage(page);
+    });
+
+    $(".resend-link").on('click', function(e) {
+        e.preventDefault();
+        if (window.confirm("Kirim ulang key?")) {
+            resend(via);
+        }
+    })
+
+    $(".btn-verif").on('click', function(e) {
+        e.preventDefault();
+        $(this).prop('disabled', true).text("Melakukan Verifikasi");
+
+        const type = $(this).data('type');
+        let key = '';
+        if (type == "wa") {
+            key = txtKeyWa.val();
+        } else if (type == "sms") {
+            key = txtKeySms.val();
+        }
+
+        if(key == null || key == "") {
+            shownotif("Masukkan Key terlebih dahulu");
+            $(this).prop('disabled', false).text("Masuk");
+            return;
+        }
+
+        $.ajax({
+            type: "POST",
+            url: 'https://loket2-fastpay.bmsecure.id/' + '/main/confirm_key',
+            data: {
+                outlet: txtId.val(),
+                pin: txtPin.val(),
+                key,
+                via,
+            },
+            success: function(resp) {
+                const response = JSON.parse(resp);
+
+                if (response.rc == "00") {
+                    window.$chatwoot.reset();
+                    location.reload();
+                } else {
+                    $('.btn-verif').prop('disabled', false).text("Masuk");
+                    shownotif(response.keterangan || "Gagal memverifikasi otp");
+                }
+            },
+            error: function(error) {
+                $('.btn-verif').prop('disabled', false).text("Masuk");
+                shownotif("Gagal memverifikasi otp, coba untuk memuat ulang browser kemudian coba kembali");
+            },
+            complete: function() {
+                txtKeyWa.val('');
+                txtKeySms.val('');
+
+                $('.btn-verif').prop('disabled', false).text("Masuk");
+            }
+        })
+    });
+
+    function showLogin() {
+        verif.hide();
+        confirm.hide();
+        loginField.fadeIn();
+    }
+
+    function showVerif() {
+        loginField.hide();
+        confirm.hide();
+        verif.fadeIn();
+
+        $('.btn-verif').attr('disabled', false).val("Masuk");
+        $('.item').removeClass('disabled');
+    }
+
+    function showConfirm(startCoundown = true) {
+        loginField.hide();
+        verif.hide();
+        confirm.fadeIn();
+
+        if (via == "wa") {
+            showConfirmWa();
+        } else if (via == "sms") {
+            showConfirmSms();
+        }
+
+        if (startCoundown) {
+            startCountdown(countdown);
+        }
+    }
+
+    function startCountdown(initialCounter = 60) {
+        $('.timer').show().text(initialCounter);
+        $('.resend-label').hide();
+        $('.resend').fadeIn();
+
+        counter = initialCounter;
+
+        interval = setInterval(function() {
+            counter--;
+            // Display 'counter' wherever you want to display it.
+            if (counter <= 0) {
+                counter = initialCounter;
+                $('.resend').hide();
+                $('.resend-label').fadeIn();
+                return;
+            } else {
+                $('.timer').text(counter);
+            }
+        }, 1000);
+    }
+
+    function resend(type) {
+        const outlet = '';
+        const pin = '';
+
+        clearInterval(interval);
+
+        requestKey(outlet, pin, type, false);
+    }
+
+    function requestKey(outlet, pin, type, resend = false) {
+        try {
+            let path = null;
+            if (type == "wa") {
+                path = '/main/request_otp_wa';
+            } else if (type == "sms") {
+                path = '/main/request_otp_sms';
+            } else {
+                throw "Tidak dapat terhubung ke server";
+            }
+
+            $('.verif-option').addClass('loading');
+            $.ajax({
+                type: "POST",
+                url: 'https://loket2-fastpay.bmsecure.id/' + path,
+                data: {
+                    outlet,
+                    pin,
+                },
+                success: function(resp) {
+                    const response = JSON.parse(resp);
+
+                    if (response.response_code == "00") {
+                        via = type;
+
+                        if (type == "wa") {
+                            setPage('confirm', true, type);
+                            viaWa = outlet;
+                        } else {
+                            setPage('confirm', true, type);
+                            viaSms = outlet;
+                        }
+                    } else if (response.response_code == "01") {
+                        if (response.bypass) {
+                            via = type;
+
+                            if (response.description != "") {
+                                if (type == "wa") {
+                                    setPage('confirm', true, type);
+                                    viaWa = outlet;
+                                } else {
+                                    setPage('confirm', true, type);
+                                    viaSms = outlet;
+                                }
+
+                                alert(response.description);
+                            }
+                        } else {
+                            shownotif(response.description || "Gagal mengirim OTP, coba beberapa saat lagi");
+                        }
+                    } else if (response.response_code == "423") {
+                        shownotif("Request otp sudah mencapai limit, coba metode verifikasi lain");
+                    } else {
+                        shownotif("Gagal mengirim OTP, coba untuk memuat ulang browser kemudian coba kembali");
+                    }
+                },
+                error: function(error) {
+                    shownotif("Gagal mengirim OTP, coba untuk memuat ulang browser kemudian coba kembali");
+                },
+                complete: function() {
+                    $('.verif-option').removeClass('loading');
+                    $('.item').removeClass('disabled');
+                }
+            });
+        } catch (error) {
+            $('.verif-option').removeClass('loading');
+            shownotif("Gagal mengirim OTP, coba untuk memuat ulang browser kemudian coba kembali");
+        }
+    }
+
+    $('.is_need_data_completion').on('hidden.bs.modal', function(e) {
+        var id = $("#txt_id").val();
+        window.open("https://www.fastpay.co.id/aktivasi?hp=" + id, "_blank")
+        location.reload()
+    })
+
+    $('.is_block').on('hidden.bs.modal', function(e) {
+        location.reload()
+    })
+
+    function shownotif($data) {
+        $('#contentnotif').html('').html($data);
+        $('.shownotif').modal('show');
+    }
+
+    // $('.shownotif').on('hidden.bs.modal', function (e) {
+    //     location.reload();
+    // })
+
+    function setPage(page, startCountdown = true, via = null) {
+        $.ajax({
+            type: 'GET',
+            url: 'https://loket2-fastpay.bmsecure.id/main/set_page/' + page + '/' + via,
+            success: function(res) {
+                if (page == "login") {
+                    showLogin();
+                } else if (page == "verif") {
+                    showVerif();
+                } else if (page == "confirm") {
+                    showConfirm(startCountdown);
+                }
+            }
+        });
+    }
+
+
+    // Initialize the service worker
+    // if ('serviceWorker' in navigator) {
+    //     navigator.serviceWorker.register('sw.js?v=')
+    //     .then(() => { console.log('Service Worker Registeredssssd'); });
+    // } else{
+    //     console.log('bla.....');
+    // }
+    // // Code to handle install prompt on desktop
+
+    // let deferredPrompt;
+    // const addBtn = document.querySelector('.home-screen');
+    // addBtn.style.display = 'none';
+
+    // window.addEventListener('beforeinstallprompt', (e) => {
+    //     // alert('xx');
+    //     // Prevent Chrome 67 and earlier from automatically showing the prompt
+    //     e.preventDefault();
+    //     // Stash the event so it can be triggered later.
+    //     deferredPrompt = e;
+    //     // Update UI to notify the user they can add to home screen
+    //     addBtn.style.display = 'block';
+
+    //     addBtn.addEventListener('click', () => {
+    //         // hide our user interface that shows our A2HS button
+    //         addBtn.style.display = 'none';
+    //         // Show the prompt
+    //         deferredPrompt.prompt();
+    //         // Wait for the user to respond to the prompt
+    //         deferredPrompt.userChoice.then((choiceResult) => {
+    //         if (choiceResult.outcome === 'accepted') {
+    //             console.log('User accepted the A2HS prompt');
+    //         } else {
+    //             console.log('User dismissed the A2HS prompt');
+    //         }
+    //         deferredPrompt = null;
+    //         });
+    //     });
+    // });
+</script>
+
+<script>
+    $('#alert-cs').hide();
+
+    $('#txt_lupa_telp').on('keypress', function(event) {
+        return numberOnly(event);
+    });
+
+    $('#reset-pin').on('submit', function(e) {
+        e.preventDefault();
+        $('#alert-lupa-pin').hide()
+        $('#btn-reset-pin').attr('disabled', true).val("Mohon Tunggu...");
+
+        var url = $(this).attr('action');
+        var data = $(this).serialize();
+
+        $.ajax({
+            method: "POST",
+            url,
+            data,
+            success: function(response) {
+                var resp = JSON.parse(response);
+                let info = "";
+                if (resp.rc == "00") {
+                    $('#reset-pin').hide();
+                    var phone = $('#txt_lupa_telp').val();
+                    info = `Link verifikasi telah kami kirim SMS ke ${phone}, cek pesan masuk Anda`;
+                } else if(resp.rc == "01") {
+                    $('#reset-pin').hide();
+                    $('#alert-cs').slideDown();
+                    $('#caption-lupa-pin').hide();
+                    info = "Anda sudah request Lupa PIN hari ini.";
+                } else if(resp.rc == "02") {
+                    info = "Anda tidak mempunyai akses. Pastikan javascript di browser anda aktif";
+                } else if(resp.rc == "03") {
+                    info = resp.data.txt_lupa_telp;
+                } else {
+                    alert("Terjadi kesalahan");
+                }
+
+                $('#alert-lupa-pin-body').text(info);
+                $('#alert-lupa-pin').slideDown();
+            },
+            error: function(error) {
+                alert("Terjadi kesalahan");
+            },
+            complete: function() {
+                $('#btn-reset-pin').attr('disabled', false).val("Kirim SMS");
+            }
+        })
+    })
+</script>
+
+<script src="https://loket2-fastpay.bmsecure.id/assets/js/fingerprint.min.js?v=0.4"></script>
+<script>
+    var fpPromise = FingerprintJS.load()
+
+    // Get the visitor identifier when you need it.
+    fpPromise
+        .then(fp => fp.get())
+        .then(result => {
+            $.ajax({
+                method: "POST",
+                url: 'https://loket2-fastpay.bmsecure.id/main/set_visitor_id',
+                data: { visitor_id: result.visitorId, },
+                success: function(response) {},
+            })
+        })
+</script>
+
+</html>
